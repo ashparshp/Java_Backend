@@ -1,4 +1,5 @@
 public class Employee {
+<<<<<<< HEAD
     String firstName;
     String lastName;
     byte age;
@@ -19,4 +20,6 @@ public class Employee {
     public String getLastName() {
         return lastName;
     }
+=======
+>>>>>>> 75b80a4f3300e181dc3470eabf60fb003912c3a5
 }
