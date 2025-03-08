@@ -4,6 +4,10 @@ public class Employee {
     byte age;
     char gender;
 
+    public Employee() {
+        System.out.println("Employee constructor called");
+    }
+
     public byte getAge() {
         return age;
     }
