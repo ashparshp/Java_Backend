@@ -31,5 +31,17 @@ public class EmployeeMain {
         System.out.println(employee3.getAge());
         System.out.println(employee3.getGender());
 
+        // Static field
+        System.out.println(Employee.companyName);
+        System.out.println(employee.companyName);
+        employee.companyName = "Facebook";
+        System.out.println(Employee.companyName);
+
+        // Constant
+        System.out.println(Employee.MAX_AGE);
+        System.out.println(employee.MAX_AGE);
+        // employee.MAX_AGE = 70; // Error: cannot assign a value to final variable MAX_AGE
+
+
     }
 }

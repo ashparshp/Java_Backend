@@ -3,6 +3,8 @@ public class Employee {
     String lastName;
     byte age;
     char gender;
+    static  String companyName = "Google"; // Static field
+    static final int MAX_AGE = 60; // Constant
 
     // Default constructor
     /* public Employee() {

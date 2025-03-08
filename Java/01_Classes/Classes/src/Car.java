@@ -2,6 +2,8 @@ public class Car {
     String model;
     String color;
     int horsePower;
+    static byte totalWheels = 4;
+    
 
     // Instance Initialization Block: It is always called whenever an object is created.
     {
