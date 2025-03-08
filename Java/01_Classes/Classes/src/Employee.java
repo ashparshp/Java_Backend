@@ -28,6 +28,12 @@ public class Employee {
         this.gender = gender;
     }
 
+    // Constructor chaining
+    public Employee(String firstName, String lastName) {
+        this(firstName, lastName, (byte) 30, 'M');
+    }
+
+    // Getters
     public byte getAge() {
         return age;
     }
@@ -43,4 +49,5 @@ public class Employee {
     public String getLastName() {
         return lastName;
     }
+    
 }

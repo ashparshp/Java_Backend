@@ -24,5 +24,12 @@ public class EmployeeMain {
         System.out.println(employee2.getAge());
         System.out.println(employee2.getGender());
 
+        // Constructor chaining
+        Employee employee3 = new Employee("Shyam", "Ji");
+        System.out.println(employee3.getFirstName());
+        System.out.println(employee3.getLastName());
+        System.out.println(employee3.getAge());
+        System.out.println(employee3.getGender());
+
     }
 }
