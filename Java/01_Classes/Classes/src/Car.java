@@ -2,7 +2,14 @@ public class Car {
     String model;
     String color;
     int horsePower;
-    static byte totalWheels = 4;
+    static byte totalWheels = 4; // Static variable: It is shared among all objects of the class.
+    static byte noOfEngines;
+
+    // Static block: It is called only once when the class is loaded into memory.
+    static {
+        noOfEngines = 1;
+        System.out.println("Static block called");
+    }
     
 
     // Instance Initialization Block: It is always called whenever an object is created.
