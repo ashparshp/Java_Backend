@@ -10,5 +10,8 @@ public class StringComparisionDemo {
         /* Compare Content */
         System.out.println(s1.equals(s2));
         System.out.println(s1.equals(s3));
+
+        /* Compare Content: No case sensitivity */
+        System.out.println(s1.equalsIgnoreCase(s2));
     }
 }
